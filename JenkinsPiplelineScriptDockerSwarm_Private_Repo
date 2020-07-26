@@ -36,5 +36,6 @@ node{
       sh "ssh ubuntu@172.31.10.56 docker service create --name javawebapp -p 7070:8080 --replicas 2 --with-registry-auth 172.31.1.204:8083/java-web-app:${buildNumber}"
     }
   }
-    
+ **/   
 }
+**/
